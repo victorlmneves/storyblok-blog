@@ -21,9 +21,12 @@
     "@vue/test-utils": "^1.1.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^26.5.0",
+    "chromedriver": "80",
+    "geckodriver": "^1.19.1",
     "jest": "^26.5.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3",
+    "sonar-scanner": "^3.1.0",
     "vue-jest": "^3.0.4"
   }
 }
