@@ -1,12 +1,25 @@
 <template>
   <div>
-    <Nuxt />
+    <TheHeader/>
+    <main class="container mx-auto">
+      <Nuxt />
+    </main>
   </div>
 </template>
+
+<script>
+import TheHeader from '@/components/Base/TheHeader'
+export default {
+  components: {
+    TheHeader
+  }
+}
+</script>
 
 <style>
 html {
   font-family:
+    'Montserrat',
     'Source Sans Pro',
     -apple-system,
     BlinkMacSystemFont,
