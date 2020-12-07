@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "coverage": "sonar-scanner",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
